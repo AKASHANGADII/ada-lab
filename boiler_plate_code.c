@@ -33,4 +33,8 @@ void main()
     fw = fopen("worst.txt", "a");
     fd = fopen("data.txt","a");
     array(arr,fb,fa,fw,fd);
+    fclose(fb);
+    fclose(fa);
+    fclose(fw);
+    fclose(fd);
 }
